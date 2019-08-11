@@ -1,0 +1,37 @@
+{
+  "name": "kneeporty-profile-microservice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:dev": "nodemon --exec babel-node index",
+    "start:prod": "---",
+    "prettify": "prettier-eslint *.{js,json} --write"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cloud-config-client": "^1.4.2",
+    "eureka-js-client": "^4.5.0",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.9.1",
+    "pg": "^7.12.0",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^5.13.0",
+    "uuid": "^3.3.2"
+  },
+  "devDependencies": {
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "chai": "^4.2.0",
+    "coveralls": "^3.0.6",
+    "eslint": "^6.1.0",
+    "eslint-config-google": "^0.13.0",
+    "mocha": "^6.2.0",
+    "prettier-eslint": "^9.0.0",
+    "prettier-eslint-cli": "^5.0.0",
+    "supertest": "^4.0.2"
+  }
+}
